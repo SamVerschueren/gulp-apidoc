@@ -78,7 +78,8 @@ module.exports = options => {
 			debug: options.debug === true,
 			silent: options.silent === true,
 			markdown: options.markdown !== false,
-			marked: options.marked
+			marked: options.marked,
+			config: options.config
 		});
 
 		if (!isGenerated) {

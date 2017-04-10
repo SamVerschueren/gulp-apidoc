@@ -38,6 +38,7 @@ gulp.task('doc', () => {
 ### Options
 
 - **template**: Directory with the template files.
+- **config**: Directory containing config file (apidoc.json).
 - **debug (false)**: Show debug output.
 - **silent (false)**: Hide log output.
 - **markdown (true)**: Parse markdown statements in the documentation.
